@@ -19,7 +19,7 @@
   },
   "include": [
     "src"
-  ],
+, "uconn-banner.tsx"  ],
   "exclude": [
     "node_modules"
   ]

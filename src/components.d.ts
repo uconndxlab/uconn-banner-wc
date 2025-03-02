@@ -20,6 +20,12 @@ export namespace Components {
          */
         "middle": string;
     }
+    interface UconnBanner {
+        /**
+          * The first name
+         */
+        "name": string;
+    }
 }
 declare global {
     interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
@@ -28,8 +34,15 @@ declare global {
         prototype: HTMLMyComponentElement;
         new (): HTMLMyComponentElement;
     };
+    interface HTMLUconnBannerElement extends Components.UconnBanner, HTMLStencilElement {
+    }
+    var HTMLUconnBannerElement: {
+        prototype: HTMLUconnBannerElement;
+        new (): HTMLUconnBannerElement;
+    };
     interface HTMLElementTagNameMap {
         "my-component": HTMLMyComponentElement;
+        "uconn-banner": HTMLUconnBannerElement;
     }
 }
 declare namespace LocalJSX {
@@ -47,8 +60,15 @@ declare namespace LocalJSX {
          */
         "middle"?: string;
     }
+    interface UconnBanner {
+        /**
+          * The first name
+         */
+        "name"?: string;
+    }
     interface IntrinsicElements {
         "my-component": MyComponent;
+        "uconn-banner": UconnBanner;
     }
 }
 export { LocalJSX as JSX };
@@ -56,6 +76,7 @@ declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
             "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
+            "uconn-banner": LocalJSX.UconnBanner & JSXBase.HTMLAttributes<HTMLUconnBannerElement>;
         }
     }
 }
