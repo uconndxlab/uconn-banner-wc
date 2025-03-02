@@ -20,8 +20,8 @@
 
 @font-face {
     font-family: "Proxima Nova";
-    src: url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/ProximaNova-BoldIt-webfont.eot');
-    src: url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/ProximaNova-BoldIt-webfont.eot?#iefix') format('embedded-opentype'), url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/ProximaNova-BoldIt-webfont.svg#proxima_novabold_italic') format('svg'), url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/ProximaNova-BoldIt-webfont.woff') format('woff'), url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/ProximaNova-BoldIt-webfont.ttf') format('truetype');
+    src: url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/proximanova-boldit-webfont.eot');
+    src: url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/proximanova-boldit-webfont.eot?#iefix') format('embedded-opentype'), url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/proximanova-boldit-webfont.svg#proxima_novabold_italic') format('svg'), url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/proximanova-boldit-webfont.woff') format('woff'), url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/proximanova-boldit-webfont.ttf') format('truetype');
     font-weight: bold;
     /* or 700 */
     font-style: italic;
@@ -29,24 +29,24 @@
 
 @font-face {
     font-family: "Proxima Nova";
-    src: url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/ProximaNova-Sbold-webfont.eot');
-    src: url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/ProximaNova-Sbold-webfont.eot?#iefix') format('embedded-opentype'), url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/ProximaNova-Sbold-webfont.svg#proxima_nova_ltsemibold') format('svg'), url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/ProximaNova-Sbold-webfont.woff') format('woff'), url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/ProximaNova-Sbold-webfont.ttf') format('truetype');
+    src: url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/proximanova-sbold-webfont.eot');
+    src: url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/proximanova-sbold-webfont.eot?#iefix') format('embedded-opentype'), url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/proximanova-sbold-webfont.svg#proxima_nova_ltsemibold') format('svg'), url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/proximanova-sbold-webfont.woff') format('woff'), url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/proximanova-sbold-webfont.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Proxima Nova";
-    src: url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/ProximaNova-Reg-webfont.eot');
-    src: url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/ProximaNova-Reg-webfont.eot?#iefix') format('embedded-opentype'), url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/ProximaNova-Reg-webfont.svg#proxima_nova_rgregular') format('svg'), url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/ProximaNova-Reg-webfont.woff') format('woff'), url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/ProximaNova-Reg-webfont.ttf') format('truetype');
+    src: url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/proximanova-reg-webfont.eot');
+    src: url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/proximanova-reg-webfont.eot?#iefix') format('embedded-opentype'), url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/proximanova-reg-webfont.svg#proxima_nova_rgregular') format('svg'), url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/proximanova-reg-webfont.woff') format('woff'), url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/proximanova-reg-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Proxima Nova";
-    src: url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/ProximaNova-RegIt-webfont.eot');
-    src: url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/ProximaNova-RegIt-webfont.eot?#iefix') format('embedded-opentype'), url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/ProximaNova-RegIt-webfont.svg#proxima_novaregular_italic') format('svg'), url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/ProximaNova-RegIt-webfont.woff') format('woff'), url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/ProximaNova-RegIt-webfont.ttf') format('truetype');
+    src: url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/proximanova-regit-webfont.eot');
+    src: url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/proximanova-regit-webfont.eot?#iefix') format('embedded-opentype'), url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/proximanova-regit-webfont.svg#proxima_novaregular_italic') format('svg'), url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/proximanova-regit-webfont.woff') format('woff'), url('https://github.uconn.edu/pages/bpd01001/uconn-webfonts/fonts/proximanova/proximanova-regit-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }

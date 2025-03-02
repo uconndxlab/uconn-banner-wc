@@ -8,7 +8,7 @@ import 'uconn-banner/banner.css'
     'uconn-banner.css',
 
   ],
-  shadow: false,
+  shadow: true,
 })
 export class UConnBanner {
   /**
