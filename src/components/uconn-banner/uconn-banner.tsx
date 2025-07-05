@@ -1,37 +1,29 @@
 import { Component, Prop, h } from '@stencil/core';
-import 'uconn-banner/banner.css'
 
 @Component({
   tag: 'uconn-banner',
   styleUrls: [
     '../../../node_modules/uconn-banner/banner.css',
-    'uconn-banner.css',
 
   ],
   shadow: true,
 })
 export class UConnBanner {
-  /**
-   * The first name
-   */
-  @Prop() name: string;
 
-  /**
-   * The middle name 
-   */
-//   @Prop() middle: string;
- 
-  /**
-   * The last name
-   */
-//   @Prop() last: string;
+  @Prop() title: string = 'University Communications';
+  @Prop() titleAbbr: string = "UComm";
+
+  @Prop() disableSearchBtn: boolean = false;
+  @Prop() disableIndexBtn: boolean = false;
+
+
 
 //   private getText(): string {
 //     return format(this.first, this.middle, this.last);
 //   }
 
   render() {
-    return     <div id="uconn-banner" class="alternative no-js">
+    return <div id="uconn-banner" class="alternative no-js">
         
         <div id="uconn-header-container">
         
@@ -43,17 +35,17 @@ export class UConnBanner {
                             
                             <span class="no-css">University of Connecticut school of </span>
                             
-                            <span id="university-of-connecticut">
-                                University Communications
-                            </span>
+                            <span id="university-of-connecticut">{ this.title }</span>
                             
-                            <span id="site-abbreviation">UComm</span>
+                            <span id="site-abbreviation">{ this.title }</span>
                             
                         </a>
                     </div>
                     
                     <div id="button-container">
                         <div class="icon-container" id="icon-container-search">
+                            { !(this.disableSearchBtn) &&   
+                           
                             <a class="btn btn-popup-control" id="uconn-search" href="https://uconn.edu/search" aria-haspopup="true"
                                 aria-controls="search-popup" aria-expanded="false">
                                 <span class="no-css">Search University of Connecticut</span>
@@ -66,6 +58,7 @@ export class UConnBanner {
                                     </path>
                                 </svg>
                             </a>
+        } 
                             
                             <div id="search-popup" class="popup-container">
                                 <div class="form-wrapper">
@@ -89,7 +82,7 @@ export class UConnBanner {
                         </div>
                         
                         <div class="icon-container" id="icon-container-az">
-                            
+                            { !(this.disableIndexBtn) &&                            
                             <a class="btn" id="uconn-az" href="https://uconn.edu/az">
                                 <span class="no-css">A to Z Index</span>
                                 
@@ -101,6 +94,7 @@ export class UConnBanner {
                                     </path>
                                 </svg>
                             </a>
+                            }
                             
                         </div>
                         

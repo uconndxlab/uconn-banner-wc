@@ -21,10 +21,10 @@ export namespace Components {
         "middle": string;
     }
     interface UconnBanner {
-        /**
-          * The first name
-         */
-        "name": string;
+        "disableIndexBtn": boolean;
+        "disableSearchBtn": boolean;
+        "title": string;
+        "titleAbbr": string;
     }
 }
 declare global {
@@ -61,10 +61,10 @@ declare namespace LocalJSX {
         "middle"?: string;
     }
     interface UconnBanner {
-        /**
-          * The first name
-         */
-        "name"?: string;
+        "disableIndexBtn"?: boolean;
+        "disableSearchBtn"?: boolean;
+        "title"?: string;
+        "titleAbbr"?: string;
     }
     interface IntrinsicElements {
         "my-component": MyComponent;
